@@ -63,7 +63,7 @@ decrease.addEventListener("click", function (e) {
 
 reset.addEventListener("click", function (e) {
   totalTimeInSeconds = resetValue;
-  isRunning = false;
+  isRunning = true;
   updateDisplay();
 });
 StartTimer.addEventListener("click", function (e) {
